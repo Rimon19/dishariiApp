@@ -1,0 +1,98 @@
+<bs-navbar></bs-navbar>
+<div class="container">
+  <div class="row" id="userfixtopbar">
+    <div *ngIf="appUser" class="col-lg-3 col-md-3 col-sm-6">
+      <h6>Welcome! <span>{{  appUser.name ||appUser.fullName}}</span></h6>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4">
+      <div class="input-group" style="margin-top:-6px">
+
+        <input type="text" class="form-control" #query (keyup)="filterBooks(query.value)"
+          placeholder="Search from your Library" aria-label="Search">
+
+        <span class="input-group-btn">
+          <button class="btn btn-secondary" type="button"><i class="icon-magnifier"></i></button>
+
+        </span>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-3 col-sm-3">
+      <div class="input-group" style="margin-top:-6px">
+
+        <select required #category="ngModel" [(ngModel)]="product.category" name="category" id="category"
+          (change)="filterBooksByCategory(product.category)" class="form-control">
+          <option value="" selected>All Category</option>
+          <option *ngFor="let c of categories$ | async" [value]="c.$key">
+            {{ c.name }}
+          </option>
+        </select>
+
+
+
+      </div>
+    </div>
+
+    <div class="col-lg-1 col-md-1 col-sm-4">
+
+      <p style="line-height: 16px;"><i style="color:#f04a09; font-size:23px" class="icon-book-open icons"></i><br>
+        <span style="font-size: 13px;font-weight: bold;">100</span></p>
+
+    </div>
+
+    <div class="col-lg-1 col-md-1 col-sm-4">
+      <p style="line-height: 16px;"><i style="color:#f04a09; font-size:23px" class="icon-cloud-upload icons"></i><br>
+        <span style="font-size: 13px;font-weight: bold;">5</span></p>
+
+    </div>
+    <hr>
+  </div>
+
+  <div *ngIf="!hide" class="row">
+
+    <div class="col-lg-2 col-md-3 col-sm-6" *ngFor="let book of allBooks">
+      <div class="item">
+        <div class="l_product_item">
+          <div class="l_p_img">
+            <img class="" [src]="book.imageUrl" style="height:150px" alt="">
+          </div>
+          <div style="width:100%; margin:0 auto; text-align:center">
+            <p *ngIf="book.condition=='english'">{{book.title}}</p>
+            <p *ngIf="book.condition !='english'">{{book.titleInBangla}}</p>
+            <a [routerLink]="['/read/', book.bookPdfUrl]" target="_blank" class="btn btn-primary">Read</a>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+  </div>
+  <div *ngIf="hide" class="row">
+
+    <div class="col-lg-2 col-md-3 col-sm-6" *ngFor="let book of filteredBooks">
+      <div class="item">
+        <div class="l_product_item">
+          <div class="l_p_img">
+            <img class="" [src]="book.imageUrl" style="height:150px" alt="">
+          </div>
+          <div style="width:100%; margin:0 auto; text-align:center">
+            <p *ngIf="book.condition=='english'">{{book.title}}</p>
+            <p *ngIf="book.condition !='english'">{{book.titleInBangla}}</p>
+            <a [routerLink]="['/read/', book.bookPdfUrl]" target="_blank" class="btn btn-primary">Read</a>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+  </div>
+
+
+</div>
+<app-footer></app-footer>

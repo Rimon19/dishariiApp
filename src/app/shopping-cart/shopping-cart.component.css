@@ -1,0 +1,30 @@
+
+
+.thumbnail { 
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-size: cover;
+}
+
+.card { 
+  margin-bottom: 80px;
+}
+.removeBtn{
+  cursor: pointer;
+}
+
+table{
+  margin: 0 auto;
+}
+
+table td{
+ padding-left: 75px;
+
+padding-top: 23px;
+}
+
+table tr{
+  text-align:center;
+}
+

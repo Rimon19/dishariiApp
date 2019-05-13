@@ -1,0 +1,445 @@
+/* tabletes */
+
+.header_top_45{
+    display: none;
+}
+.showMobileSection{
+    display: none;
+}
+
+
+
+@media screen and(max-width:768px){
+    .mobilesize1{
+        cursor: pointer;
+        height: 46px;
+    }
+    /* .number{
+      width: 46%;
+    }
+    .showHide{
+        width: 46%; 
+    }
+    .top_right_header{
+        width: 46%; 
+    } */
+    .cartItem{
+        width: 46%;  
+    }
+    .readanimation{
+        height: 30%;
+       
+    }
+    .input-group{
+        width: 46%;
+    }
+
+    .numberandSearchbox{
+        width: 46%;
+    }
+    .logoAndemail{
+        width: 46%;
+    }
+}
+
+/* mobile */
+
+
+@media screen and (max-width:375px) and (min-width:360px){
+     .top_right_header{
+        display: block;
+    }
+    .hideMobileSection{
+        display: none;
+    }
+    .header_top_44{
+        display: none;
+    }
+
+
+    .header_top_45{
+        display: inline;
+    }
+    .showMobileSection{
+        display: inline;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        
+    }
+    .sticky9{
+        margin-left: 0px;
+        top: 47px;
+        margin-top: 12px;
+    }
+    
+    .sticky3{
+        margin-right: 1px;
+    }
+    .navbar-light .navbar-toggler{
+        margin-top: 7px;
+        margin-bottom: 13px;
+    }
+    .navbar-toggler{
+        padding: .09rem .45rem;
+        font-size: 1.15rem;
+    }
+
+}
+
+
+@media screen and (max-width:575px) and (min-width:376px){
+    .mobilesize1{
+        cursor: pointer;
+        height: 40px;
+    }
+   
+    .top_right_header{
+        display: block;
+    }
+    .hideMobileSection{
+        display: none;
+    }
+    .header_top_44{
+        display: none;
+    }
+
+    .header_top_45{
+        display: inline;
+    }
+    .showMobileSection{
+        display: inline;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        
+    }
+    .sticky9{
+        margin-left: 0px;
+        top: 47px;
+        margin-top: 12px;
+    }
+    
+    .sticky2{
+        max-width: 100%;
+        margin-left:0px;
+        margin-top: 0px;
+    }
+
+    .sticky3{
+        margin-right: 1px;
+        width: 100%;
+    }
+    .navbar-light .navbar-toggler{
+        margin-top: 7px;
+        margin-bottom: 13px;
+    }
+    .navbar-toggler{
+        padding: .09rem .45rem;
+        font-size: 1.15rem;
+    }
+
+    .forgenericmobile{
+        margin-left: 44px;
+    }
+
+    
+
+}
+
+@media screen and (max-width:2000px) and (min-width:1441px){
+    .sticky{
+        width: 100%;
+    }
+    .sticky2{
+        max-width: 100%;
+        margin-left: 144px;
+    }
+    .hideDesktopandTab{
+        display: none;
+    }
+    .main_slider_area{
+        margin-top:-37px;
+    }
+}
+
+@media screen and (max-width:1440px) and (min-width:1367px){
+    .sticky{
+        width: 100%;
+    }
+    .sticky2{
+        max-width: 100%;
+        margin-left: 99px;
+    }
+    .hideDesktopandTab{
+        display: none;
+    }
+    .main_slider_area{
+        margin-top:-37px;
+    }
+}
+
+@media screen and (max-width:1366px) and (min-width:1281px){
+    .sticky{
+        width: 100%;
+    }
+    .sticky2{
+        max-width: 100%;
+        margin-left: 56px;
+    }
+    .hideDesktopandTab{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1280px) and (min-width:880px){
+    .sticky{
+        width: 100%;
+    }
+    .sticky2{
+        max-width: 100%;
+    }
+    .hideDesktopandTab{
+        display: none;
+    }
+}
+
+@media screen and (max-width:991px) and (min-width:851px){
+     .textid1{
+        font-size:11px;
+    }
+    .top_right_header{
+        margin-top:29px;
+    }
+    .sticky5{
+        position:fixed;
+        bottom: 0;
+    }
+    .header_top_44{
+        display: none;
+    }
+
+
+    .header_top_45{
+        display: inline;
+    }
+    .top_right_header{
+        margin-top: 14px;
+        margin-left: 30%;
+    }
+    .top_right li a{
+        font-size: 18px;
+        line-height: 40px;
+    }
+    .cartItemTOp{
+        margin-top: -20px;
+        margin-left: 14px;
+        height: 19px;
+        width: 21px;
+        border-radius: 11px;
+    }
+    .top_right_price{
+        padding: 8px 4px 2px 6px;     border: 1px solid #ccc9c9; margin-left: 4px;     font-size: 13px;
+                                    font-weight: 600;
+    }
+    .navbar-light .navbar-toggler{
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .navbar-toggler{
+        padding: 0.10rem .5rem;
+        font-size: 1.1rem;
+    }
+    .sticky2{
+        max-width: 100%;
+        margin-left: 80px;
+        top: 59px;
+        padding-left: 14%;
+        margin-top: 8px;
+    }
+
+    .sticky3{
+        position: fixed;
+        padding-top: 2px;
+        z-index: 8;
+        background-color: white;
+        margin-right: 21px;
+        
+        padding-left: 129px;
+    }
+
+
+
+    .hideDesktopandTab{
+        display: none;
+    }
+    .fortabwidth{
+        width:383px;
+    }
+}
+
+@media screen and (max-width:767px) and (min-width:576px){
+    .textid1{
+        font-size:11px;
+    }
+    .top_right_header{
+        margin-top:29px;
+    }
+    .sticky5{
+        position:fixed;
+        bottom: 0;
+    }
+    .header_top_44{
+        display: none;
+    }
+
+    .header_top_45{
+        display: inline;
+    }
+    .top_right_header{
+        margin-top: 14px;
+        margin-left: 30%;
+    }
+    .top_right li a{
+        font-size: 18px;
+        line-height: 40px;
+    }
+    .cartItemTOp{
+        margin-top: -20px;
+        margin-left: 14px;
+        height: 19px;
+        width: 21px;
+        border-radius: 11px;
+    }
+    .top_right_price{
+        padding: 8px 4px 2px 6px;     border: 1px solid #ccc9c9; margin-left: 4px;     font-size: 13px;
+                                    font-weight: 600;
+    }
+    .navbar-light .navbar-toggler{
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .navbar-toggler{
+        padding: 0.10rem .5rem;
+        font-size: 1.1rem;
+    }
+    .sticky2{
+        max-width: 100%;
+        margin-left: 5%;
+        top: 59px;
+        margin-top: 8px;
+        max-width: 636px;
+    }
+    .hideDesktopandTab{
+        display: none;
+    }
+    .fortabwidth{
+        width:300px;
+    }
+
+}
+
+@media screen and (max-width:1573px) and (min-width:1442px){
+    .sticky2{
+        max-width: 100%;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 11%;
+    }
+}
+
+@media screen and (max-width:1700px) and (min-width:1574px){
+    .sticky2{
+        max-width: 100%;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 14%;
+    }
+}
+
+@media screen and (max-width:1840px) and (min-width:1701px){
+    .sticky2{
+        max-width: 100%;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 17%;
+    }
+}
+@media screen and (max-width:1980px) and (min-width:1841px){
+    .sticky2{
+        max-width: 100%;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20%;
+    }
+}
+
+
+@media screen and (max-width:850px) and (min-width:768px){
+    .textid1{
+        font-size:11px;
+    }
+    .top_right_header{
+        margin-top:29px;
+    }
+    .sticky5{
+        position:fixed;
+        bottom: 0;
+    }
+    .header_top_44{
+        display: none;
+    }
+
+    .header_top_45{
+        display: inline;
+    }
+    .top_right_header{
+        margin-top: 14px;
+        margin-left: 135px;
+    }
+    .top_right li a{
+        font-size: 18px;
+        line-height: 40px;
+    }
+    .cartItemTOp{
+        margin-top: -20px;
+        margin-left: 14px;
+        height: 19px;
+        width: 21px;
+        border-radius: 11px;
+    }
+    .top_right_price{
+        padding: 8px 4px 2px 6px;     border: 1px solid #ccc9c9; margin-left: 4px;     font-size: 13px;
+                                    font-weight: 600;
+    }
+    .navbar-light .navbar-toggler{
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .navbar-toggler{
+        padding: 0.10rem .5rem;
+        font-size: 1.1rem;
+    }
+    .sticky2{
+        max-width: 100%;
+        margin-left: 39px;
+        top:49px;
+        margin-top: 18px;
+    }
+    .hideDesktopandTab{
+        display: none;
+    }
+
+    .fortabwidth{
+        width:472px;
+    }
+    
+
+    
+}
+
+
