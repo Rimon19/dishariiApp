@@ -75,6 +75,8 @@ import { ForgetPasswordComponent } from './forget-password/forget-password.compo
 import { MarchandDashboardComponent } from './marchand-dashboard/marchand-dashboard.component';
 import { AudioBooksComponent } from './audio-books/audio-books.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { DonatePageComponent } from './donate-page/donate-page.component';
+import { BestSellingBooksComponent } from './best-selling-books/best-selling-books.component';
 
 
 @NgModule({
@@ -115,6 +117,8 @@ import { AboutUsComponent } from './about-us/about-us.component';
     MarchandDashboardComponent,
     AudioBooksComponent,
     AboutUsComponent,
+    DonatePageComponent,
+    BestSellingBooksComponent,
    
 
     // FooterComponent,
@@ -151,6 +155,8 @@ import { AboutUsComponent } from './about-us/about-us.component';
       { path: '', component: ProductsComponent },
       { path: 'products', component: ProductsComponent },
       { path: 'boimela-exclusive', component: BoimelaExclusiveBooksComponent},
+      { path: 'best-selling-books', component: BestSellingBooksComponent},
+      { path: 'donate-page', component: DonatePageComponent},
       { path: 'audio-books', component: AudioBooksComponent},
       { path: 'todo', component: TodosTestingPurposeComponent },
       // { path: 'TestProducts', component: TestProductsComponent },
